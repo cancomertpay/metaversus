@@ -22,7 +22,6 @@ const Insights = () => (
         {insights.map((item, index) => (
           <InsightCard key={`insight-${index}`} {...item} index={index + 1} />          
         ))}
-
       </div>
     </motion.div>
   </section>
